@@ -2,10 +2,4 @@
 
 .containerApp {
   height: 100vh;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  font-family: 'Teko';
-  font-size: 6rem;
-  background-color: #000F1A;
 }
