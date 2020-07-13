@@ -1,0 +1,39 @@
+.container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-family: 'Teko';
+  font-size: 6rem;
+}
+
+.containerClock {
+  color: #ffeadb;
+  background-color:  #679b9b;
+  border-radius: 800px;
+  padding-left: 6rem;
+  padding-right: 6rem;
+  padding-bottom: 10rem;
+  padding-top: 10rem;
+}
+
+.image {
+  width: 100%;
+}
+
+@media screen and (max-width: 480px) {
+
+  .containerClock {
+    border-radius: 200px;
+    padding-left: 2rem;
+    padding-right: 2rem;
+    padding-bottom: 3.5rem;
+    padding-top: 3.5rem;
+    font-size: 2rem;
+  }
+
+  .image {
+    margin-top: 2rem;
+  }
+
+}
